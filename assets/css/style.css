@@ -74,12 +74,27 @@ a:hover {
 section {
     background-color: #ffffff;
     padding: 25px;
+    margin-bottom: 100px;
 }
 
 section img {
     width: 200px;
     float: left;
     margin-right: 25px;
+}
+
+.footer {
+    position: fixed;
+    background-color: #666666;
+    color: #ffffff;
+    bottom: 0;
+    width: 100%;
+}
+
+.teal {
+    height: 5px;
+    width: 100%;
+    background-color: #4aaaa5;
 }
 
 /* Bootstrap Override */
