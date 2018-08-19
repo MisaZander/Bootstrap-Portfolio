@@ -20,6 +20,21 @@ h1 {
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
+a {
+    line-height: 90px;
+    color: #cccccc;
+    /* text-decoration: none; */
+}
+
+a.active {
+    color: #4aaaa5;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: underline;
+}
+
 /* Header */
 
 .page-header {
@@ -32,7 +47,7 @@ h1 {
     background-color: #4aaaa5;
     padding: 30px 25px;
     margin: 0;
-    display: inline-block; /*h1 will not take up more width than it needs */
+    text-align: center;
 }
 
 /* Bootstrap Override */
@@ -40,5 +55,6 @@ h1 {
     .container {
         margin: 0;
         padding: 0;
+        max-width: inherit;
     }
 }
