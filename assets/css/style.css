@@ -83,6 +83,16 @@ section img {
     margin-right: 25px;
 }
 
+/* contact */
+
+form {
+    background-color: #ffffff;
+    padding: 10px;
+    /* margin-bottom: 100px; */
+}
+
+/* Footer */
+
 .footer {
     position: fixed;
     background-color: #666666;
