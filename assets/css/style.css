@@ -96,7 +96,7 @@ form {
 div.portfolio-element {
     width: 300px;
     height: 250px;
-    margin: 30px 30px 0 0;
+    margin: 30px;
     position: relative;
     float: left;
 }
@@ -113,6 +113,10 @@ div.portfolio-element p {
 
 div.portfolio-element a {
     line-height: inherit;
+}
+
+div.container.fopplebottom {
+    margin-bottom: 100px;
 }
 
 /* Footer */
